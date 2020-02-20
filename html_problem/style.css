@@ -1,0 +1,98 @@
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*---------Navigation-------*/
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 10 px;
+  padding-left: 30px;
+}
+.navbar-nav li {
+  float: right;
+  text-align: left;
+}
+#nav-bar ul li a:hover {
+  color: #007bff !important;
+}
+
+.navbar {
+  background: #fff;
+}
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* body */
+#body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  text-align: center;
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 70%;
+}
+
+.text {
+  overflow-y: auto;
+  height: 300px;
+}
+
+.body {
+  display: flex;
+}
+
+.fomr-check {
+  text-align: right;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+#content {
+  text-align: center;
+  background-color: grey;
+  color: #fff;
+}
+.content-text {
+  text-align: left;
+}
+
+.content {
+  padding: 30px;
+}
+
+/*----------Footer------*/
+#footer {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+}
+:fa-heart-o {
+  margin: 3px;
+  color: red;
+}
